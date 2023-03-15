@@ -188,5 +188,30 @@ input[type='button']:active {
 /* FIM DA MAIN DOS BOTÕES*/
 /* FIM DO CONTAINER */
 
-
-/*#87ADDE*/
+/*MEDIA QUERY*/
+/*MEDIA QUERY PARA CELULARES*/
+@media screen and (max-width: 760px) {
+    .container {
+        /*ALINHAMENTO*/
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .cronometro {
+        /*TAMANHO*/
+        width: 99%;
+    }
+    .main-btn-box {
+        /*ALINHAMENTO*/
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    input[type='button'] {
+        /*TAMANHO*/
+        width: 300px;
+        height: 128px;  
+        font-size: large;      
+    }
+}
